@@ -21,7 +21,7 @@ while(contador_2>=0){
 contador_3=prompt("Elige un nro: ");
 while(contador_3>=0){
     console.log(contador_3);
-    contador_3-=1;
+    contador_3--;
 }
 
 //4:
@@ -29,5 +29,5 @@ contador_4=prompt("Dame otro:");
 let start=0;
 while(start<contador_4){
     console.log(start);
-    start+=1;
+    start++;
 }
