@@ -14,9 +14,40 @@ const mensaje="¡Buena semana!";
 
 let rta=prompt("¿Qué día de la semana es?");
 
-if(rta.toLowerCase=="domingo" || rta.toLowerCase=="sábado"){
+if(rta=="domingo" || rta=="sábado"){
     alert(msg);
 }
 else{
     alert(mensaje);
 }
+
+//2
+
+let usr= prompt("Ingrese un nro:");
+if(usr<0){
+    alert("Usted ha ingresado un nro negativo");
+}
+else if(usr>0){
+    alert("Usted ha ingresado un nro positivo");
+}
+else{ alert("Usted ingreso el 0");}
+
+//3.
+let puntuacion=prompt("Ingrese la puntuación");
+
+if(puntuacion>=100){ alert("¡Felicidades, has ganado");}
+else{
+    alert("Intentalo nuevamente para ganar.");
+}
+
+//4.
+
+let saldoDeLaCuenta=5030;
+
+alert(`Su saldo es de ${saldoDeLaCuenta}`);
+
+//5.
+let name=prompt("Ingrese su nombre: ");
+let msj=`Bienvenid@ , ${name}!`;
+
+alert(msj);
