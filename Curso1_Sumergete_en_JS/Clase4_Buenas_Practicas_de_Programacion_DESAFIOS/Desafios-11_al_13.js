@@ -8,7 +8,7 @@
 console.log(Math.random());
 
 //12
-console.log(Math.random*10); //Al multiplicarlo, elegimos el rango de random
+console.log(Math.random()*10); //Al multiplicarlo, elegimos el rango de random
 
 //13
-console.log(Math.random*1000);
+console.log(parseInt(Math.random()*1000)+1); //Para que sea entero , +1 -> [1,1000]
