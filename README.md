@@ -14,5 +14,13 @@ Comprende la formación de **Principiante en Programación** , [...]
 
 # 2. Principiante en Programación
    - [x] Lógica de programación: sumérgete en la programación con JavaScript
-   - [ ] Lógica de programación: explorar funciones y listas
+   - [x] Lógica de programación: explorar funciones y listas
+   - [ ] Git y Github: Repositorio,commit y versiones
+   - [ ] Practicando Lógica de Programación: Challenge Amigo secreto
+   - [ ] ChatGPT: optimizando la calidad de los resultados
+   - [ ] HTML y CSS: ambientes de desarrollo, estructura de archivos y tags
+   - [ ] HTML y CSS: Clases, Posicionamiento y Flexbox
+   - [ ] HTML y CSS: header, footer y variables CSS
+   - [ ] HTML y CSS: trabajando con responsividad y publicación de proyectos
+   
 
