@@ -38,3 +38,26 @@ document.getElementById("id_input").setAttribute("disabled","true");
 //-----------------------------------
 let celsiusAFahrenheit = celsius => (celsius * 9/5) + 32; //función flecha 
 let mayor = (a, b) => (a > b ? a : b); //f. flecha
+
+//---------------
+let lista=[];
+lista.push("4"); //add al final
+lista.pop("3"); //lo elimina
+
+function sortearLibro(numeroLimite, listaDeLibrosSorteados) {
+    
+    if (listaDeLibrosSorteados.length === numeroLimite) { // lista completa -> reincio
+        listaDeLibrosSorteados = [];
+    }
+
+    let libroElegido;
+
+    do {
+        libroElegido = Math.floor(Math.random() * numeroLimite) + 1; //nro random de libro
+    } while (listaDeLibrosSorteados.includes(libroElegido)); //si el libro está en lista, genero otro
+
+    listaDeLibrosSorteados.push(libroElegido);
+    return libroElegido;
+}
+
+
