@@ -61,3 +61,12 @@ function sortearLibro(numeroLimite, listaDeLibrosSorteados) {
 }
 
 
+//-------------------
+
+function sumarListas(lista1, lista2) {
+    return lista1.map((num, index) => num + lista2[index]);
+}
+
+//----------------
+
+// Math.floor(Math.random() * (máximo - mínimo + 1) + mínimo)
