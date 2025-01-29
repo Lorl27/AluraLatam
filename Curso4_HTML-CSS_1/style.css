@@ -22,10 +22,27 @@ main{
     align-items: center;
     margin:5%;
     justify-content: space-between;
+    gap: 100px 50px;
 }
 
 h1 {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     color: blue; 
+}
+
+.enlace {
+    text-decoration: none;
+    background-color: grey;
+    border-radius: 10px;
+    padding:5px 15px; /*alto-ancho*/
+    width: 100px;
+    height: 30px;
+    align-items: center;
+    color:black;
+    font-size: 30px;
+}
+
+p{
+    padding-bottom: 15px;
 }
