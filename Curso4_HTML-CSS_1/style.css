@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+
+:root{
+    --main-color:aliceblue:
+}
+
+
 *{
     padding:0;
     margin:0;   /* Reset CSS */
@@ -7,7 +13,7 @@
 
 
 body{
-    background-color: aliceblue;
+    background-color: var(--main-color);
     color:rgb(77, 77, 77);
     height:100vh; /* full -> vh= viewport*/
     box-sizing:border-box; /* permite que child no sea más grande que parent */
@@ -46,3 +52,22 @@ h1 {
 p{
     padding-bottom: 15px;
 }
+
+.alura{
+    border-style: inline;    
+    border-color:rgb(255, 160, 160);  
+    margin: 10%;    
+    display: flex; 
+    text-align: center;
+    padding:5%;
+    border-width: 10px;
+}
+
+p:hover{
+    color:greenyellow;
+    padding:3%;
+    cursor: help; /*?   Cambia estilo del cursor */
+}
+
+/*todo: a footer and a header style*/
+

@@ -2,8 +2,10 @@
 
 
 
-Este repositorio contiene los distintos desafíos y proyectos correspondiente a la BECA de ONE (G8) de [AluraLatam y Oracle.](https://app.aluracursos.com/) </br>
+Este repositorio contiene los distintos desafíos y proyectos correspondientes a la BECA de ONE (G8) de [AluraLatam y Oracle.](https://app.aluracursos.com/) </br>
 Comprende la formación de **Principiante en Programación** , [...]
+
+[Challengue 1: Amigo Secreto](https://github.com/Lorl27/Challengue_Amigo_Secreto)
 
 ### Completados:
 # 1. Desarrollo de SoftSkills
@@ -18,8 +20,8 @@ Comprende la formación de **Principiante en Programación** , [...]
    - [x] Git y Github: Repositorio,commit y versiones
    - [x] Practicando Lógica de Programación: Challenge Amigo secreto
    - [x] ChatGPT: optimizando la calidad de los resultados
-   - [ ] HTML y CSS: ambientes de desarrollo, estructura de archivos y tags
-   - [ ] HTML y CSS: Clases, Posicionamiento y Flexbox
+   - [x] HTML y CSS: ambientes de desarrollo, estructura de archivos y tags
+   - [x] HTML y CSS: Clases, Posicionamiento y Flexbox
    - [ ] HTML y CSS: header, footer y variables CSS
    - [ ] HTML y CSS: trabajando con responsividad y publicación de proyectos
    
