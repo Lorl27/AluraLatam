@@ -22,7 +22,7 @@ Comprende la formación de **Principiante en Programación** , [...]
    - [x] ChatGPT: optimizando la calidad de los resultados
    - [x] HTML y CSS: ambientes de desarrollo, estructura de archivos y tags
    - [x] HTML y CSS: Clases, Posicionamiento y Flexbox
-   - [ ] HTML y CSS: header, footer y variables CSS
-   - [ ] HTML y CSS: trabajando con responsividad y publicación de proyectos
+   - [x] HTML y CSS: header, footer y variables CSS
+   - [x] HTML y CSS: trabajando con responsividad y publicación de proyectos
    
 
