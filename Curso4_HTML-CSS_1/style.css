@@ -2,7 +2,7 @@
 
 
 :root{
-    --main-color:aliceblue:
+    --main-color:aliceblue;
 }
 
 
@@ -13,6 +13,7 @@
 
 
 body{
+    width: 1200px;
     background-color: var(--main-color);
     color:rgb(77, 77, 77);
     height:100vh; /* full -> vh= viewport*/
@@ -46,11 +47,11 @@ h1 {
     height: 30px;
     align-items: center;
     color:black;
-    font-size: 30px;
+    font-size: 2rem;
 }
 
 p{
-    padding-bottom: 15px;
+    padding-bottom: 1rem;
 }
 
 .alura{
@@ -60,8 +61,12 @@ p{
     display: flex; 
     text-align: center;
     padding:5%;
-    border-width: 10px;
+    border-width: 1rem; /* * NOTE - 1em = 30px (BASE NAV.) ; */
 }
+
+/* ? 1rem = 16px
+? 2rem = 32px
+? 0.5rem = 8px    ->>> TAMAÑO / 16 = X rem =) */   
 
 p:hover{
     color:greenyellow;
@@ -71,3 +76,17 @@ p:hover{
 
 /*todo: a footer and a header style*/
 
+@media (max-width:480px) { /* ?  Media querys , ayuda a cambiar objetos cuando e.g la pantalla es celular. */
+    .div1{
+        flex-direction: column;
+        background-color: aqua !important;   /*REVIEW - 800px tablets*/
+    }
+}
+
+
+
+.div1 {
+    display: flex;
+    background-color: transparent; 
+    border:2px solid red;
+}
